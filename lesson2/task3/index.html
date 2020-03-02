@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <style>
+        .dropdown {
+            margin: 16px;
+            z-index: 1;
+        }
+        
+        .menu-button {
+            padding: 16px;
+            background-color: darkgreen;
+            opacity: 0.8;
+            color: white;
+            display: inline-block;
+            padding: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .menu-list {
+            position: absolute;
+            font-size: 16px;
+            min-width: 120px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: lightcyan;
+            color: black;
+            box-shadow: 0px 4 px 8 px 0px rgba(0, 0, 0, 0.2);
+            /* display: none; */
+        }
+        
+        .menu-item {
+            padding: 16px;
+        }
+        
+        .dropdown:hover .menu-list {
+            display: block;
+        }
+        
+        .dropdown:hover .menu-button {
+            opacity: 1;
+        }
+        
+        .dropdown:hover .menu-item {
+            background-color: ghostwhite;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="dropdown">
+        <span class="menu-button">Hover me</span>
+        <ul class="menu-list">
+            <li class="menu-item">Cars</li>
+            <li class="menu-item">Planes</li>
+            <li class="menu-item">Ships</li>
+        </ul>
+    </div>
+</body>
+
+</html>
