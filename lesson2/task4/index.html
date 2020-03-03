@@ -6,15 +6,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
     <title>Tooltipt</title>
     <style>
-
+        .hover {
+            width: fit-content;
+            margin: 16px;
+            text-decoration: underline dotted black;
+        }
+        
+        .tooltip {
+            background-color: gray;
+            border-radius: 4px;
+            padding: 8px;
+            bottom: -40;
+            color: white;
+            margin: 16px;
+        }
+        
+        .tooltip:hover {}
     </style>
 </head>
 
 <body>
-    <div class="whole_tooltip">
-        <div class="hover">Hover over me</div>
-        <span class="tooltip">I'm a tooltip</span>
-    </div>
+
+    <div class="hover">Hover over me</div>
+    <span class="tooltip">I'm a tooltip</span>
+
 </body>
 
 </html>
