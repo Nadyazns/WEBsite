@@ -21,13 +21,20 @@
             margin: 16px;
         }
         
-        .tooltip:hover {}
+        div:hover {
+            content: attr(title);
+        }
+        
+        div .title {
+            box-shadow: 0px 2px 4px 2px gray;
+            border: solid black;
+        }
     </style>
 </head>
 
 <body>
 
-    <div class="hover">Hover over me</div>
+    <div class="hover" title="I'm a little text">Hover over me</div>
     <span class="tooltip">I'm a tooltip</span>
 
 </body>
