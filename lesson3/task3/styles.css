@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: ;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 50vw;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+.third {
+    text-decoration: underline green;
+}
+
+.second {
+    text-decoration: line-through;
+}
+
+.first {
+    text-decoration: overline red;
+}
