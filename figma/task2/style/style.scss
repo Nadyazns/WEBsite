@@ -21,10 +21,8 @@
         width: 380px;
         height: 770px;
         right: 928px;
-        // margin-top: 115px;
-        // margin-bottom: 115px;
         background: #334247;
-        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+        // box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
         margin: 9px;
         font-family: Montserrat;
         font-weight: 300;
@@ -94,7 +92,7 @@
     .ribbon {
         display: flex;
         position: relative;
-        overflow: hidden;
+        // overflow: hidden;
     }
     
     .ribbons_text {
@@ -110,12 +108,12 @@
         line-height: 20px;
         top: 0;
         right: 0;
-        transform: translateX(30%) translateY(0%) rotate(45deg);
+        transform: translateX(10%) translateY(-136%) rotate(45deg);
         transform-origin: top left;
         color: #FFFFFF;
         background-color: #DC3F45;
-        top: 26px;
-        right: -33px;
+        top: 10px;
+        right: -45px;
     }
     
     h2 {
