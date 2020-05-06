@@ -1,17 +1,16 @@
 .content {
   background-color: #141b1c;
   display: flex;
-  flex-direction: row;
-  /* position: relative; */
+  position: relative;
   width: 1440px;
   height: 1000px;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 
 .tables {
   display: flex;
-  flex-direction: row;
 }
 
 .price-card {
@@ -22,8 +21,6 @@
   width: 380px;
   height: 770px;
   right: 928px;
-  margin-top: 115px;
-  margin-bottom: 115px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-right: 18px;
